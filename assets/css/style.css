@@ -509,6 +509,19 @@ form button {
   border-radius: 7px;
 }
 
+.form-btn {
+  display: block;
+  width: 216px;
+  height: 70px;
+  background-color: #f8a343;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 7px;
+}
+
 .social-icon-2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -824,7 +837,7 @@ form button {
 }
 
 .map-area {
-  height: 700px;
+  height: 772px;
   position: relative;
   overflow: hidden;
 }
@@ -917,6 +930,17 @@ form button {
 }
 
 /*********** Responsive CSS **************/
+@media screen and (max-width: 1166px) {
+  .navigation-main-area ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navigation-main-area li {
+    margin-left: 30px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .medi-top-header {
     display: none;
@@ -955,22 +979,7 @@ form button {
   }
   .real-logo,
   .encinos-logo {
-    position: absolute;
-    top: -10%;
-    right: 0;
-    width: 390px;
-    height: 90px;
-  }
-}
-
-@media screen and (max-width: 1166px) {
-  .navigation-main-area ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .navigation-main-area li {
-    margin-left: 30px;
+    display: none;
   }
 }
 
