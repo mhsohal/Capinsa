@@ -474,6 +474,9 @@
         line-height: 70px;
         border-radius: 7px;
         cursor: pointer;
+        &:hover {
+            color: #fff;
+        }
     }
     
     .social-icon-2 {
@@ -516,8 +519,18 @@
             }
         }
         .banner-img {
-            width: auto;
+            width: 100%;
             height: 519px;
+            position: relative;
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                right: -10%;
+                width: 100%;
+                height: 30px;
+                background-color: #272b2b;
+            }
         }
     }
     /* End Banner Content */
