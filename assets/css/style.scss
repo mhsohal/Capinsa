@@ -600,7 +600,7 @@
             .real-logo,
             .encinos-logo {
                 position: absolute;
-                top: -24%;
+                top: -23%;
                 right: 0;
                 width: 390px;
                 height: 90px;
@@ -883,9 +883,44 @@
         .banner-content {
             width: 100%;
         }
-        .real-logo,
-        .encinos-logo {
-            display: none;
+        .banner-img {
+            &::after {
+                right: -1.5% !important;
+            }
+        }
+        .real-wrap,
+        .encinos-wrap {
+            position: relative;
+            .real-logo,
+            .encinos-logo {
+                position: absolute;
+                top: -10% !important;
+                right: 0;
+                width: 390px;
+                height: 90px;
+            }
+        }
+        .ema-img {
+            margin-bottom: 50px;
+            &::after {
+                right: 55px;
+            }
+            img {
+                width: 90%;
+            }
+        }
+        .model-img {
+            margin-bottom: 20px;
+        }
+        .encinos-2 {
+            .encinos-wrap {
+                .encinos-logo {
+                    margin-top: 67px;
+                }
+                p {
+                    padding-top: 250px;
+                }
+            }
         }
     }
     
