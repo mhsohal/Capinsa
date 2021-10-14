@@ -17,7 +17,7 @@
         overflow-x: hidden;
         font-size: $body_font_size;
         background-color: #fff;
-        color: #fff;
+        color: #000;
         font-family: $body_font;
         line-height: 1.5;
         -moz-osx-font-smoothing: antialiased;
@@ -45,11 +45,13 @@
     h5,
     h6 {
         font-weight: 700;
+        color: #fff;
     }
     
     p {
         font-size: 18px;
         margin: 0;
+        color: #fff;
     }
     
     ol,
@@ -84,7 +86,7 @@
     }
     
     a {
-        color: inherit;
+        color: #fff;
         text-decoration: none;
         transition: 0.3s all ease-in-out;
     }
@@ -429,7 +431,7 @@
         height: 70px;
         background-color: #272b2b;
         font-size: 18px;
-        color: #fff;
+        color: #fff !important;
         text-align: center;
         line-height: 70px;
         border: 2px solid #272b2b;
@@ -441,7 +443,7 @@
         height: 70px;
         background-color: transparent;
         font-size: 18px;
-        color: #fff;
+        color: #fff !important;
         text-align: center;
         line-height: 70px;
         border: 2px solid #fff;
@@ -454,7 +456,7 @@
         height: 70px;
         background-color: $primary_color;
         font-size: 18px;
-        color: #fff;
+        color: #fff !important;
         text-align: center;
         line-height: 70px;
         border-radius: 7px;
@@ -471,6 +473,7 @@
         text-align: center;
         line-height: 70px;
         border-radius: 7px;
+        cursor: pointer;
     }
     
     .social-icon-2 {
@@ -511,6 +514,10 @@
                     margin-right: 35px;
                 }
             }
+        }
+        .banner-img {
+            width: auto;
+            height: 519px;
         }
     }
     /* End Banner Content */
